@@ -1,4 +1,4 @@
-import { ArrowUpRight, Cpu, FlaskConical, Globe2, GraduationCap } from 'lucide-react'
+import { ArrowUpRight, FlaskConical, Globe2, GraduationCap } from 'lucide-react'
 import Container from '../components/ui/Container'
 
 const quickLinks = [
@@ -15,8 +15,8 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-end">
           <div>
             <a href="#top" className="inline-flex items-center gap-2 font-display text-lg font-semibold text-slate-100">
-              <Cpu size={17} className="text-accent" />
-              Vectra Robotics
+              <img src="/logo.png" alt="Genesys Quantis logo" className="h-8 w-8 rounded-md object-contain" />
+              Genesys Quantis
             </a>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-slate-400">
               Intelligent robotics for surgical care, scientific automation, and future-ready STEM education.
