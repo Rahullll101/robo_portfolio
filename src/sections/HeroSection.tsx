@@ -1,39 +1,9 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, ChevronDown, Stethoscope } from 'lucide-react'
+import { ArrowRight, Stethoscope } from 'lucide-react'
 import Button from '../components/Button'
 import { fadeIn, staggerContainer } from '../lib/animations'
 
 const headlineLines = ['Intelligent Robotics', 'for Healthcare, Science', '& Education']
-
-function RobotArmIllustration() {
-  return (
-    <svg viewBox="0 0 480 480" className="h-full w-full" fill="none" aria-hidden="true">
-      <defs>
-        <linearGradient id="armGlow" x1="80" y1="70" x2="380" y2="410" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#22D3EE" />
-          <stop offset="0.52" stopColor="#2563EB" />
-          <stop offset="1" stopColor="#A78BFA" />
-        </linearGradient>
-        <filter id="blurGlow" x="0" y="0" width="480" height="480" filterUnits="userSpaceOnUse">
-          <feGaussianBlur stdDeviation="16" />
-        </filter>
-      </defs>
-      <circle cx="240" cy="240" r="140" fill="url(#armGlow)" opacity="0.08" filter="url(#blurGlow)" />
-      <path d="M138 332C171 319 198 304 228 286" stroke="#22D3EE" strokeOpacity="0.6" strokeWidth="10" strokeLinecap="round" />
-      <path d="M230 286C264 271 286 246 300 216" stroke="#2563EB" strokeOpacity="0.7" strokeWidth="10" strokeLinecap="round" />
-      <path d="M300 216C316 186 320 157 312 128" stroke="#A78BFA" strokeOpacity="0.75" strokeWidth="10" strokeLinecap="round" />
-      <rect x="118" y="322" width="56" height="56" rx="18" fill="#0F172A" stroke="url(#armGlow)" strokeWidth="2" />
-      <rect x="214" y="270" width="52" height="52" rx="16" fill="#0F172A" stroke="url(#armGlow)" strokeWidth="2" />
-      <rect x="286" y="192" width="54" height="54" rx="18" fill="#0F172A" stroke="url(#armGlow)" strokeWidth="2" />
-      <rect x="296" y="102" width="44" height="44" rx="16" fill="#0F172A" stroke="url(#armGlow)" strokeWidth="2" />
-      <circle cx="325" cy="124" r="8" fill="#22D3EE" />
-      <path d="M350 104L390 78" stroke="#22D3EE" strokeOpacity="0.8" strokeWidth="6" strokeLinecap="round" />
-      <circle cx="396" cy="74" r="10" fill="#0F172A" stroke="#22D3EE" strokeWidth="2" />
-      <path d="M395 74h20" stroke="#22D3EE" strokeWidth="2" strokeLinecap="round" />
-      <path d="M395 74v20" stroke="#22D3EE" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  )
-}
 
 export default function HeroSection() {
   return (
@@ -115,25 +85,18 @@ export default function HeroSection() {
           />
 
           <motion.div
-            className="relative z-10 h-[380px] w-[380px]"
+            className="relative z-10 h-[420px] w-[420px] overflow-hidden rounded-[1.5rem] border border-accent/25"
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <RobotArmIllustration />
-          </motion.div>
-
-          <motion.div
-            className="absolute bottom-8 left-8 right-8 rounded-2xl border border-white/10 bg-background/70 p-4 shadow-[0_0_35px_rgba(34,211,238,0.08)]"
-            initial={{ opacity: 0, y: 18 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            <div className="flex items-center justify-between gap-4 text-sm">
-              <div>
-                <p className="text-slate-400">Surgical Arm Status</p>
-                <p className="mt-1 font-semibold text-slate-100">Ready for AI-assisted operation</p>
-              </div>
-              <ChevronDown size={18} className="text-accent" />
+            <img
+              src="/medical-surgical-arm.jpg"
+              alt="Robotic surgical arm in an advanced operating room"
+              className="h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.2),rgba(15,23,42,0.55))]" />
+            <div className="absolute bottom-4 left-4 rounded-full border border-accent/35 bg-background/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
+              Medical Surgical Arm
             </div>
           </motion.div>
         </motion.div>

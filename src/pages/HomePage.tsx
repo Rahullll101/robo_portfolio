@@ -6,6 +6,8 @@ const CoreDomainsSection = lazy(() => import('../sections/CoreDomainsSection'))
 const WhyRoboticsMatterSection = lazy(() => import('../sections/WhyRoboticsMatterSection'))
 const EcosystemSection = lazy(() => import('../sections/EcosystemSection'))
 const TrustedBySection = lazy(() => import('../sections/TrustedBySection'))
+const LabsSection = lazy(() => import('../sections/LabsSection'))
+const LiveTrainingSection = lazy(() => import('../sections/LiveTrainingSection'))
 const HealthcareDeepSection = lazy(() => import('../sections/HealthcareDeepSection'))
 const ProductsSection = lazy(() => import('../sections/ProductsSection'))
 const TechnologySection = lazy(() => import('../sections/TechnologySection'))
@@ -28,6 +30,8 @@ export default function HomePage() {
         <CoreDomainsSection />
         <EcosystemSection />
         <TrustedBySection />
+        <LabsSection />
+        <LiveTrainingSection />
         <HealthcareDeepSection />
         <ProductsSection />
         <TechnologySection />

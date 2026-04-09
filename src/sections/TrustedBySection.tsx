@@ -2,7 +2,16 @@ import { motion } from 'framer-motion'
 import SectionWrapper from '../components/ui/SectionWrapper'
 import { fadeIn, staggerContainer } from '../lib/animations'
 
-const trustedBy = ['Northbridge Medical', 'Aster Labs', 'Helix University', 'Nova STEM Alliance', 'Quantum MedTech', 'Orbit Research']
+const trustedBy = [
+  'LN DENTAL',
+  'CAPITAL DENTAL',
+  'NIMS HOPITAL',
+  'QUATUM LEAP SCHOOL',
+  'AI GEMSTEK',
+  'CRITICAL RIVER',
+  'SIMPLE ROS USA & DUBAI',
+  'AADYA PHARMACY',
+]
 
 export default function TrustedBySection() {
   return (

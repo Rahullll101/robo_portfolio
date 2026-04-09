@@ -14,12 +14,11 @@ export default function Footer() {
       <Container className="py-10 md:py-12">
         <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr] md:items-end">
           <div>
-            <a href="#top" className="inline-flex items-center gap-2 font-display text-lg font-semibold text-slate-100">
-              <img src="/logo.png" alt="Genesys Quantis logo" className="h-8 w-8 rounded-md object-contain" />
-              Genesys Quantis
+            <a href="#top" className="inline-flex items-center">
+              <img src="/logo.png" alt="Zerokost Robotics logo" className="h-14 w-auto object-contain" />
             </a>
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-slate-400">
-              Intelligent robotics for surgical care, scientific automation, and future-ready STEM education.
+            <p className="mt-2 max-w-xl text-sm leading-relaxed text-slate-400">
+              T-Hub's main facility (Phase 2), Plot No 1/C, Sy No 83/1, Raidurgam Panmaktha, Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana 500081
             </p>
           </div>
 
