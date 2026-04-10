@@ -110,14 +110,15 @@ export default function HealthcareDeepSection() {
                 ))}
               </div>
 
-              <div className="mt-6 h-52 rounded-2xl border border-white/10 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.15),transparent_32%),linear-gradient(180deg,rgba(15,23,42,0.96),rgba(2,6,23,0.92))] p-4">
-                <div className="flex h-full items-center justify-center rounded-2xl border border-accent/15 bg-white/[0.03]">
-                  <motion.div
-                    className="h-28 w-28 rounded-full border border-accent/20 bg-accent/10"
-                    animate={{ scale: [1, 1.05, 1] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-                  />
-                </div>
+              <div className="relative mt-6 h-52 overflow-hidden rounded-2xl border border-accent/20 shadow-[0_0_28px_rgba(34,211,238,0.14)]">
+                <motion.img
+                  src="https://img.freepik.com/premium-photo/close-up-robotic-arm-surgery-room_14117-909883.jpg?w=360"
+                  alt="Advanced robotic surgery setup in a medical environment"
+                  className="h-full w-full object-cover"
+                  animate={{ scale: [1, 1.035, 1] }}
+                  transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
+                />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.16),transparent_38%),linear-gradient(180deg,rgba(7,12,26,0.06),rgba(7,12,26,0.62))]" />
               </div>
             </motion.div>
           </AnimatePresence>

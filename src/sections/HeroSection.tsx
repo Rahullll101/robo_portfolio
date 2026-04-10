@@ -67,37 +67,35 @@ export default function HeroSection() {
 
         <motion.div
           variants={fadeIn}
-          className="relative mx-auto flex min-h-[520px] w-full max-w-[560px] items-center justify-center"
+          className="relative mx-auto flex w-full max-w-[520px] items-center justify-center"
         >
-          <div className="absolute inset-0 rounded-[2rem] border border-white/10 bg-white/[0.04] backdrop-blur-2xl" />
-          <div className="absolute inset-6 rounded-[1.75rem] border border-accent/25 bg-background/55" />
           <motion.div
             aria-hidden="true"
-            className="absolute left-10 top-10 h-28 w-28 rounded-full bg-accent/15 blur-3xl"
+            className="absolute left-1/2 top-1/2 h-[22rem] w-[22rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/20 blur-3xl"
             animate={{ scale: [1, 1.12, 1] }}
             transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
           />
           <motion.div
             aria-hidden="true"
-            className="absolute right-14 top-28 h-36 w-36 rounded-full bg-primary/15 blur-3xl"
+            className="absolute right-6 top-10 h-32 w-32 rounded-full bg-primary/20 blur-3xl"
             animate={{ scale: [1, 1.08, 1], y: [0, 10, 0] }}
             transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
           />
 
           <motion.div
-            className="relative z-10 h-[420px] w-[420px] overflow-hidden rounded-[1.5rem] border border-accent/25"
+            className="relative z-10 w-full max-w-[460px] overflow-hidden rounded-[1.5rem] border border-accent/35 shadow-[0_0_38px_rgba(34,211,238,0.18)]"
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
           >
             <img
               src="/medical-surgical-arm.jpg"
               alt="Robotic surgical arm in an advanced operating room"
-              className="h-full w-full object-cover"
+              className="aspect-[1/1] h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.2),rgba(15,23,42,0.55))]" />
-            <div className="absolute bottom-4 left-4 rounded-full border border-accent/35 bg-background/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
+            {/* <div className="absolute bottom-4 left-4 rounded-full border border-accent/35 bg-background/70 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-accent">
               Medical Surgical Arm
-            </div>
+            </div> */}
           </motion.div>
         </motion.div>
       </motion.div>
