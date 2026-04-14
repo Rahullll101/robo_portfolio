@@ -18,7 +18,7 @@ export default function Footer() {
               <img src="/logo.png" alt="Zerokost Robotics logo" className="h-14 w-auto object-contain" />
             </a>
             <p className="mt-2 max-w-xl text-sm leading-relaxed text-slate-400">
-              T-Hub's main facility (Phase 2), Plot No 1/C, Sy No 83/1, Raidurgam Panmaktha, Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana 500081
+              SM Reddy Complex, 202, Capital Pk Rd, Cyber Hills Colony, VIP Hills, Silicon Valley, Madhapur, Hyderabad, Telangana 500081
             </p>
           </div>
 
@@ -31,14 +31,26 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-            <div className="flex gap-2 sm:justify-end">
-              <button className="rounded-md border border-white/10 p-2 text-slate-300 transition hover:border-accent/40 hover:text-accent">
+            <div className="flex items-start gap-2 sm:justify-end">
+              <button
+                type="button"
+                aria-label="Visit global profile"
+                className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/10 text-slate-300 transition hover:border-accent/40 hover:text-accent"
+              >
                 <Globe2 size={16} />
               </button>
-              <button className="rounded-md border border-white/10 p-2 text-slate-300 transition hover:border-accent/40 hover:text-accent">
+              <button
+                type="button"
+                aria-label="Visit education profile"
+                className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/10 text-slate-300 transition hover:border-accent/40 hover:text-accent"
+              >
                 <GraduationCap size={16} />
               </button>
-              <button className="rounded-md border border-white/10 p-2 text-slate-300 transition hover:border-accent/40 hover:text-accent">
+              <button
+                type="button"
+                aria-label="Visit diagnostic labs profile"
+                className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/10 text-slate-300 transition hover:border-accent/40 hover:text-accent"
+              >
                 <FlaskConical size={16} />
               </button>
             </div>

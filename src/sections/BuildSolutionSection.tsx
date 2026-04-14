@@ -15,7 +15,7 @@ const industryBase = {
     modules: ['Surgical arm chassis', 'Operating room dashboard', 'Sterile workflow integration'],
   },
   Education: {
-    profile: 'Modular teaching robotics stack for STEM curriculum and simulation labs.',
+    profile: 'Modular teaching robotics stack for Health Education curriculum and simulation Diagnostic Labs.',
     modules: ['Learning kit hardware', 'Mentor mode software', 'Progress analytics panel'],
   },
   Lab: {

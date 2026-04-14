@@ -50,7 +50,7 @@ export default function ContactSection() {
           <div className="relative mt-2">
             <select className={selectClassName} defaultValue="Surgical Robotics">
               <option className="bg-background text-slate-200">Surgical Robotics</option>
-              <option className="bg-background text-slate-200">STEM Robotics Education</option>
+              <option className="bg-background text-slate-200">Health Education Robotics Education</option>
               <option className="bg-background text-slate-200">Wet Lab Automation</option>
               <option className="bg-background text-slate-200">Ambassador Program</option>
             </select>

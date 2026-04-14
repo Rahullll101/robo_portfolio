@@ -9,13 +9,13 @@ const useCases = [
     icon: Hospital,
   },
   {
-    title: 'Labs',
+    title: 'Diagnostic Labs',
     desc: 'Automated chemistry operations with repeatable protocol execution and sample management.',
     icon: FlaskConical,
   },
   {
     title: 'Schools',
-    desc: 'STEM robotics curriculum with hands-on kits, guided projects, and ambassador-led mentoring.',
+    desc: 'Health Education robotics curriculum with hands-on kits, guided projects, and ambassador-led mentoring.',
     icon: GraduationCap,
   },
 ]

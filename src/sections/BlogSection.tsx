@@ -9,7 +9,7 @@ const posts = [
     date: 'Apr 2026',
   },
   {
-    title: 'From Classroom to Prototype: STEM Robotics Pathways That Scale',
+    title: 'From Classroom to Prototype: Health Education Robotics Pathways That Scale',
     category: 'Education',
     date: 'Mar 2026',
   },

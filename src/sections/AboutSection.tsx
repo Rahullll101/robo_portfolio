@@ -25,7 +25,7 @@ export default function AboutSection() {
           </p>
           <p className="mt-4 text-sm leading-relaxed text-slate-300 md:text-base">
             Our healthcare-first approach prioritizes surgical precision and patient safety, while our education and lab
-            platforms extend the same intelligence backbone into classrooms and wet labs.
+            platforms extend the same intelligence backbone into classrooms and wet Diagnostic Labs.
           </p>
         </div>
 

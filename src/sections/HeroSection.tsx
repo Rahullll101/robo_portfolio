@@ -57,7 +57,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div variants={fadeIn} className="mt-8 flex flex-wrap gap-3 text-xs text-slate-300">
-            {['Surgical Arm Focus', 'Lab Automation Ready', 'STEM Ecosystem'].map((item) => (
+            {['Surgical Arm Focus', 'Lab Automation Ready', 'Health Education Ecosystem'].map((item) => (
               <span key={item} className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-2">
                 {item}
               </span>

@@ -10,7 +10,7 @@ const domains = [
     points: ['Medical Surgical Robotic Arm', 'AI-assisted precision surgery'],
   },
   {
-    title: 'STEM Education',
+    title: 'Health Education',
     icon: GraduationCap,
     points: ['Hands-on robotics kits', 'Adaptive learning platform'],
   },

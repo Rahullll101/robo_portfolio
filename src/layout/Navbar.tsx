@@ -5,7 +5,7 @@ import Container from '../components/ui/Container'
 const links = [
   { label: 'Domains', href: '#domains' },
   { label: 'Healthcare', href: '#healthcare' },
-  { label: 'Labs', href: '#labs' },
+  { label: 'Diagnostic Labs', href: '#labs' },
   { label: 'Live Training', href: '#live-training' },
   { label: 'Build Solution', href: '#build' },
   { label: 'About', href: '#about' },

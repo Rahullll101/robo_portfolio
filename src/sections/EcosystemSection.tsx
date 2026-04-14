@@ -6,8 +6,8 @@ import { fadeIn, staggerContainer } from '../lib/animations'
 
 const ecosystem = [
   { title: 'Clinical Systems', desc: 'Surgical robotics and operating-room decision support.', icon: HeartPulse },
-  { title: 'Learning Platform', desc: 'Curriculum, simulations, and guided robotics labs.', icon: BookOpen },
-  { title: 'Automation Stack', desc: 'Protocol orchestration for wet labs and scientific workflows.', icon: Layers3 },
+  { title: 'Learning Platform', desc: 'Curriculum, simulations, and guided robotics Diagnostic Labs.', icon: BookOpen },
+  { title: 'Automation Stack', desc: 'Protocol orchestration for wet Diagnostic Labs and scientific workflows.', icon: Layers3 },
   { title: 'Community Program', desc: 'Ambassadors, mentors, and global student engagement.', icon: Users2 },
 ]
 

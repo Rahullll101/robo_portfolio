@@ -12,7 +12,7 @@ const reasons = [
   },
   {
     title: 'Accelerate learning through tangible systems',
-    desc: 'STEM programs become more effective when students can build, simulate, and deploy real robotic workflows.',
+    desc: 'Health Education programs become more effective when students can build, simulate, and deploy real robotic workflows.',
     icon: Sparkles,
   },
   {

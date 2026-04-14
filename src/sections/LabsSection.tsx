@@ -21,7 +21,7 @@ const teamTracks: TeamTrack[] = [
   },
   {
     title: 'Mechanical Engineering',
-    image: 'https://picsum.photos/seed/mechanical-engineering/1400/900',
+    image: 'https://foa-media.arch.hku.hk/media/upload/2020/07/robotic-fabrication-laboratory-1.jpg',
     points: [
       'Early concept sketches and simple CAD',
       'Chassis design for stability and balance',
@@ -64,7 +64,7 @@ export default function LabsSection() {
   return (
     <SectionWrapper
       id="labs"
-      eyebrow="Labs"
+      eyebrow="Diagnostic Labs"
       title="Industries We Serve"
       subtitle="Core tracks across robotics development, shown with demo visuals and practical focus areas."
     >
